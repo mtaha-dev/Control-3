@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.hero{
+
+    
+    height: 122vh;
+    background-image: url(../../imgages/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: DM Sans, Arial;
+    padding: 0px 100px;
+}

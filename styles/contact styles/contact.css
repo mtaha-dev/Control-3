@@ -1,0 +1,85 @@
+body{
+
+    font-family: DM Sans, Arial;
+    margin: 0;
+}
+
+.contact-page{
+
+    margin: 0px;
+}
+.title{
+
+    text-align: center;
+    padding-top: 70px;
+    color: #14358A;
+    margin: 0;
+}
+.informations{
+
+    width: 40%;
+    margin: 10px auto;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #AC60E5, #0C87F0);
+}
+.les-demandes{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+.separation{
+
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+input,
+select,
+textarea{
+
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+}
+input:focus,
+textarea:focus{
+
+    outline: 2px solid #E95C49;
+}
+label{
+    color: white;
+    font-size: 500;
+}
+.demande-lebel{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.buttons{
+
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+.Envoyer-button{
+
+    background: linear-gradient(135deg, #AC60E5, #0C87F0);
+    color: white;
+    padding: 16px;
+    width: 160px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.15s;
+}
+.Envoyer-button:hover{
+
+    background-color: #6028f9;
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

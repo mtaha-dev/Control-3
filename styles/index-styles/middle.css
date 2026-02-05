@@ -1,0 +1,45 @@
+.middle{
+
+    margin-top: 100px;
+}
+.pourquoi-nous-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    
+    
+}
+.question{
+
+    color: #14358A;
+    font-size: 46px;
+    text-align: center;
+}
+.raison{
+
+    margin: 24px;
+    padding: 16px 100px;
+    border: none;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.15s;
+    background: linear-gradient(200deg, #AC60E5, #0C87F0);
+    color: white;
+}
+.raison:hover{
+
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.all-raison{
+
+    padding: 50px 260px;
+    margin: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

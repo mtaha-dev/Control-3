@@ -1,0 +1,67 @@
+.footer-section{
+
+    height: 60vh;
+    background-image: url(../../imgages/Background-Footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.end-page{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px;
+
+    vertical-align: top;
+}
+.partie{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partie small{
+
+    font-weight: 300;
+}
+.company,
+.Pages,
+.reseaux-sociaux{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    padding: 10px;
+}
+
+h4{
+    margin: 0;
+}
+.description{
+    margin-top: 10px;
+}
+.Pages ul{
+    margin: 0;
+}
+.company{
+
+    align-items: start;
+}
+.copyrigth{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    width: 95%;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}

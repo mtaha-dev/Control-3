@@ -1,0 +1,76 @@
+body{
+
+    font-family: DM Sans, Arial;
+    margin: 0;
+}
+
+.services{
+
+    margin: 68px 0;
+    padding: 0px 40px;
+}
+.title{
+
+    text-align: center;
+    padding: 30px;
+    color: #14358A;
+}
+.list-services{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.dev-web,
+.ui-ux,
+.maintenance{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.15s;
+}
+.dev-web:hover,
+.ui-ux:hover,
+.maintenance:hover{
+
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+}
+.dev-web{
+
+    background-color: #006EEA;
+}
+.ui-ux{
+
+    background-color: #0298EB;
+}
+.maintenance{
+
+    background-color: #E95C49;
+}
+.nom-service{
+
+    text-align: center;
+
+}
+.nom-service h2{
+
+    font-size: 30px;
+}
+.nom-service p{
+
+    font-size: 14px;
+    margin-top: 34px;
+    text-align: center;;
+}
+.description{
+
+    font-size: 14px;
+    line-height: 26px;
+}

@@ -1,0 +1,124 @@
+.first-viewport{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.presentation{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 10px 30px;
+    
+}
+.presentation h1{
+
+    width: 100%;
+    font-size: 56px;
+    margin: 0 0 20px 0;
+    line-height: 62px;
+    text-align: left;
+}
+.presentation p{
+    
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+}
+.illustration {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 10px;
+}
+.image-illustrative {
+
+    height: 80%;
+}
+
+.buttons{
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    gap: 16px;
+    font-weight: 800;
+}
+.start-now-button{
+
+    background-color: #6A36FF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #6A36FF;    
+    transition: background-color 0.15s, transform 0.3s;
+}
+.trial-button{
+
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transition: background-color 0.15s, transform 0.3s;
+}
+.start-now-button:hover{
+
+    background-color: #6028f9;
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.trial-button:hover{
+
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.search-bar{
+    position: relative;
+    width: 90%;
+    padding: 50px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
+
+}
+
+.cercle-container{
+
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.cercle{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+input{
+
+    width: 84%;
+    margin-left: 24px;
+    padding: 18px 22px;
+    border-radius: 12px;
+    border: none;
+}
+input::placeholder{
+
+    font-size: large;
+}
